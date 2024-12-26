@@ -1,0 +1,8 @@
+services:
+  web-sveltekit:
+    build: .
+    environment:
+      PORT: "3000"
+      ORIGIN: "https://pynappo.xyz"
+    ports:
+      - "127.0.0.1:3000:3000"
